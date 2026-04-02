@@ -9,7 +9,6 @@ body {
     background: #F8FAFC;
 }
 
-/* Navbar */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -28,7 +27,6 @@ body {
     color: #6366F1;
 }
 
-/* Hero */
 .hero {
     min-height: 60vh;
     padding: 80px 20px;
@@ -53,6 +51,19 @@ body {
     font-size: 18px;
 }
 
+.hero-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.hero-image img {
+    width: 300px;
+}
+
 .hero button {
     padding: 12px 25px;
     border: none;
@@ -66,13 +77,11 @@ body {
     background: #2DD4BF;
 }
 
-/* Sections */
 .features, .pricing {
     padding: 60px 20px;
     text-align: center;
 }
 
-/* Cards */
 .cards {
     display: flex;
     justify-content: center;
@@ -94,7 +103,11 @@ body {
     transform: translateY(-10px);
 }
 
-/* Highlight pricing */
+.card img {
+    width: 50px;
+    margin-bottom: 15px;
+}
+
 .highlight {
     border: 2px solid #6366F1;
 }
@@ -104,7 +117,6 @@ body {
     margin: 10px 0;
 }
 
-/* CTA */
 .cta {
     display: flex;
     justify-content: center;
@@ -143,30 +155,12 @@ body {
     background: #8B5CF6;
 }
 
-/* Footer */
 footer {
     background: #8961e6;
     color: white;
     text-align: center;
     padding: 20px;
 }
-/* HERO CONTENT LAYOUT */
-.hero-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 40px;
-    max-width: 1000px;
-    width: 100%;
-}
 
-/* HERO IMAGE */
-.hero-image img {
-    width: 300px;
-}
 
-/* FEATURE ICONS */
-.card img {
-    width: 50px;
-    margin-bottom: 15px;
-}
+
