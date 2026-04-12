@@ -1,88 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>NovaTech Landing Page</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion Store</title>
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<header class="navbar">
-    <h2 class="logo">NovaTech</h2>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">Features</a>
-        <a href="#">Pricing</a>
-        <a href="#">Contact</a>
-    </nav>
-</header>
+  <!-- Top Navbar -->
+  <nav class="navbar">
+    <h2 class="logo">👗 Fashion</h2>
 
-<section class="hero">
-    <div class="hero-content">
-        <div class="hero-text">
-            <h1>Grow Your Business with Smart Solutions</h1>
-            <p>We help companies build modern digital products that drive success and innovation.</p>
-            <button>Get Started</button>
-        </div>
-        <div class="hero-image">
-            <img src="https://cdn-icons-png.flaticon.com/512/1055/1055687.png" alt="hero">
-        </div>
+    <ul class="nav-links">
+      <li><a href="#">Home</a></li>
+      <li><a href="#products">Collections</a></li>
+      <li><a href="#">Cart</a></li>
+      <li><a href="#">Account</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Content -->
+  <div class="content">
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <h1>New Season Collection</h1>
+      <p>Style that defines you 🔥</p>
+      <button class="hero-btn">Shop Now</button>
+    </section>
+
+    <!-- Search -->
+    <div class="search-container">
+      <input type="text" placeholder="Search outfits...">
+      <button>Search</button>
     </div>
-</section>
 
-<section class="features">
-    <h2>Why Choose Us</h2>
-    <div class="cards">
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828884.png">
-            <h3>Fast Performance</h3>
-            <p>Optimized solutions for speed and efficiency.</p>
-        </div>
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/1828/1828919.png">
-            <h3>Modern Design</h3>
-            <p>Clean and user-friendly interface.</p>
-        </div>
-        <div class="card">
-            <img src="https://cdn-icons-png.flaticon.com/512/2913/2913133.png">
-            <h3>Secure System</h3>
-            <p>Top-level security for your data.</p>
-        </div>
+    <!-- Products -->
+    <h2 id="products" class="section-title">Trending Styles</h2>
+
+    <div class="products">
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1521334884684-d80222895322" alt="">
+        <h3>₹1999</h3>
+        <p>Men's Casual Jacket</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b" alt="">
+        <h3>₹1499</h3>
+        <p>Women's Stylish Dress</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="">
+        <h3>₹999</h3>
+        <p>Denim Jeans</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
+      <div class="card">
+        <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b" alt="">
+        <h3>₹799</h3>
+        <p>Oversized T-Shirt</p>
+        <button class="buy-btn">Buy Now</button>
+      </div>
+
     </div>
-</section>
 
-<section class="pricing">
-    <h2>Our Plans</h2>
-    <div class="cards">
-        <div class="card">
-            <h3>Basic</h3>
-            <p class="price">₹499/month</p>
-            <p>Essential features for startups</p>
-        </div>
-        <div class="card highlight">
-            <h3>Pro</h3>
-            <p class="price">₹999/month</p>
-            <p>Advanced tools for growing businesses</p>
-        </div>
-        <div class="card">
-            <h3>Enterprise</h3>
-            <p class="price">Custom</p>
-            <p>Complete solutions for large companies</p>
-        </div>
-    </div>
-</section>
+    <footer class="footer">
+      <p>© 2026 Fashion Store | Designed by You</p>
+    </footer>
 
-<section class="cta">
-    <div class="cta-box">
-        <h2>Start Your Journey Today</h2>
-        <p>Join thousands of users already growing with us.</p>
-        <button>Sign Up Now</button>
-    </div>
-</section>
-
-<footer>
-    <p>© 2026 NovaTech | All Rights Reserved</p0>
-</footer>
+  </div>
 
 </body>
 </html>
